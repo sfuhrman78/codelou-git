@@ -8,10 +8,27 @@ body {
   }
 
   a {
-      color: #fff;
+      color: red;
       text-decoration: none;
+      display: inline-block;
+
+  }
+  footer {
+      color:#000080;
   }
 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    display: block;
+    padding: 5px 5px;
+    background-color: black;
+
+  }
 /*==========================
  Base Layout styles
  =========================*/
@@ -32,4 +49,8 @@ body {
             background: #d9e4ea;
  }
 
+ .project-pics {
+            max-width: 300px;
+            min-width: 200px;
+ }
  /* -----Page Elements -----*/
