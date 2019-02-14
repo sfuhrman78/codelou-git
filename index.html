@@ -20,9 +20,56 @@
         </div>
       </header>
 
-      <p><a class="javascript" href="#">here</a></p>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
 
-      <div class="container">
+      <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="img/140x100.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="img/155x300.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="img/284x196.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <img src="img/284x196.jpg" style="width:100%">
+          <div class="text">Caption Four</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="img/284x196.jpg" style="width:100%">
+          <div class="text">Caption Five</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <a class="junkCar" href="#">here</a>
+
+      <div class="paragraph">
         <h2>A glimpse into the sparatic mind of Shawn</h2>
         <p>Volunteering your time; it pays you and your whole community fantasti
           c dividends. If what you're doing doesn't make you happy - you're doing
@@ -51,7 +98,7 @@
           <a href="#"><img src="img/140x100.jpg" alt="Moss quotes IT crowd"class="project-pics"></a>
         </div>
       <footer>
-        <div class="container">
+        <div class="footer">
           <h1 class="logo"><a href="#">My Mind</a></h1>
           <ul class="main-nav">
             <li><a href="#">Projects</a></li>
@@ -62,5 +109,6 @@
           </ul>
         </div>
       </footer>
+      <script src="js/junkCar.js"></script>
     </body>
 </html>
