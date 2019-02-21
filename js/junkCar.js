@@ -1,3 +1,18 @@
+// Tips Generator under junk Car review
+var tips = [
+  "Don\'t use cruise control in the rain, it can cause you to hydroplane and loose control.",
+  "On a three lane interstate or highway, use the middle lane, left lane to pass, and right lane to exit.",
+  "After passing using the left hand lane, get back to the middle or right lane as soon as safely possible",
+  "When parking on an incline turn wheel to curb before turning off car.  If car slips gear the curb will chalk the wheels."
+]
+function nextTip(){
+  var randomNumber = Math.floor(Math.random()*(tips.length));
+  document.getElementById('tipsGenerator').innerHTML = tips[randomNumber];
+}
+
+
+
+//Lightbox for junk car review
 var slideIndex = 1;
 showSlides(slideIndex);
 

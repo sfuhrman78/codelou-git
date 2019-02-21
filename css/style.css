@@ -50,14 +50,14 @@ body {
 
  .main-footer {
             padding: 2em 0;
-            background: #d9e4ea;
+            background: #000059;
  }
 
  .project-pics {
             max-width: 300px;
             min-width: 200px;
  }
- /* -----Page Elements -----*/
+ /* -----Slideshow Styles -----*/
 
  /* Slideshow container */
  .slideshow-container {
