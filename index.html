@@ -8,9 +8,9 @@
 </head>
 <body>
       <!-- header including Nav bar -->
-      <header class="main-header">
+      <header class="main-header clearfix">
         <div class="container">
-          <h1 class="logo"><a href="#">My Mind</a></h1>
+          <h1 class="logo"><img id="profilePicture" src="img/defaultProfilePic.jpg" alt="picture of the page owner"/><a href="#">My Mind</a></h1>
           <ul class="main-nav">
             <li><a href="#projects">Projects</a></li>
             <li><a href="#JunkCar">Junk Cars</a></li>
@@ -27,32 +27,56 @@
       <!-- Full-width images with number and caption text -->
         <div id="JunkCar" class="mySlides fade">
           <div class="numbertext">1 / 5</div>
-          <img src="img/FB_IMG_1550889307258.jpg" alt="Vw Cabriolet covered in snow" style="width:100%">
+          <img src="img/CabbyMain.jpg" alt="Vw Cabriolet covered in snow" style="width:100%">
           <div class="text">1985 Volkswagen Cabriolet. I bought this car as a project, so my take is that it is a good car, but don't have much useable info on this car.</div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">2 / 5</div>
-          <img src="img/20180526_130215.jpg" alt="Vw beetle sitting in the grass" style="width:100%">
+          <img src="img/BugMain.jpg" alt="Vw beetle sitting in the grass" style="width:100%">
           <div class="text">1974 Volkswagen beetle.  This car is in bad shape.  I bought this as a project for my son and I to go through together.  Lots of rust and engine needs rebuilt.  We will see how this goes, check back for updates on this project car.</div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">3 / 5</div>
-          <img src="img/FB_IMG_1550887798185.jpg" alt="Pontiac Grand am gray in color" style="width:100%">
+          <img src="img/GrandAmMain.jpg" alt="Pontiac Grand am gray in color" style="width:100%">
           <div class="text">1987 Pontiac Grand Am.  This beast was MY first car.  I drove this until the wheels fell off.  It lasted me 3 years or so as a delivery car and just general beating around in with little maintenance.</div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">4 / 5</div>
-          <img src="img/FB_IMG_1550887805006.jpg" alt="Vw Jetta sitting in the snow"style="width:100%">
+          <img src="img/JettaGTmain.jpg" alt="Vw Jetta sitting in the snow"style="width:100%">
           <div class="text">This was my first car that I bought myself.  It was a 1998 Volkswagen Jetta GT.  It had the 2.0 four cylander, manual trans, and took a hell of a beating from me over the years.  This car started my love for Vw's.</div>
         </div>
 
         <div class="mySlides fade">
           <div class="numbertext">5 / 5</div>
-          <img src="img/FB_IMG_1550887816684.jpg" alt="1985 Vw golf missing front quarter pannel and with newspaper over window" style="width:100%">
+          <img src="img/JettaGLXmain.jpg" alt="black 1998 volkswagen jetta glx sitting in front of a corn field" style="width:100%">
+          <div class="text">Info about the Jetta GLX.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="img/GolfGTImain.jpg" alt="1985 Vw golf missing front quarter pannel and with newspaper over window" style="width:100%">
           <div class="text">1985 Vw Golf GTI.  I bought this car as another project.  It had an engine swap of a g60 motor, but the supercharger was bad and I planned on rebuilding it.  It ended up catching fire by the fusebox while I was driving.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="img/AudiAllroadMain.jpg" alt="Audi Allroad driving stratling a culvert." style="width:100%">
+          <div class="text">Info about 2001 Audi Allroad.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="img/99_Toyota_Camry_Main.jpg" alt="White rusty 99 Toyota Camry." style="width:100%">
+          <div class="text">Info about the Toyota Camry.</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <img src="img/72ChevyImallamain.jpg" alt="1972 Chevrolet Impalla, pea green with pea green roof." style="width:100%">
+          <div class="text">Info about the 72 Impalla.</div>
         </div>
 
         <!-- Next and previous buttons -->
@@ -66,6 +90,12 @@
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
       </div>
 
       <a class="junkCar" href="#">here</a>
@@ -103,13 +133,16 @@
 
         <!-- Projects pictures clickable links -->
         <div id="projects" class="project-pics">
-          <a href="#"><img src="img/FB_IMG_1550888900418.jpg" alt="Chicken coop built on the back of a shed"class="project-pics"></a>
+          <a href="#"><img src="img/chickenCoopMain.jpg" alt="Chicken coop built on the back of a shed."class="project-pics"></a>
           <p>This is my chicken coop project that I built on the back of my shed.  It was an interesting project to do and if you'd like more info please click on the picture.</p>
-          <a href="#"><img src="img/FB_IMG_1550887756564.jpg" alt="Bricked over garage door with window"class="project-pics"></a>
+          <a href="#"><img src="img/GarageProjectMain.jpg" alt="Bricked over garage door with window."class="project-pics"></a>
           <p>This is my bedroom project.  I converted a garage on my house into an extra bedroom.  For more infor on the project along with more pictures, click on the picture above.</p>
-          <a href="#"><img src="img/155x300.jpg" alt="Bill Murrey portrait caddy shack"class="project-pics"></a>
-          <a href="#"><img src="img/284x196.jpg" alt="Bill murrey young Bill"class="project-pics"></a>
-          <a href="#"><img src="img/140x100.jpg" alt="Moss quotes IT crowd"class="project-pics"></a>
+          <a href="#"><img src="img/orangeComputerProjectMain.jpg" alt="Custom computer project, orange TuffBook computer."class="project-pics"></a>
+          <p>This was a Panasonic TuffBook that I recieved as payment.  It didn't work when I first recieved, after adding a hard drive and some RAM I had a working computer.  Then I decided to paint and design it.</p>
+          <a href="#"><img src="img/ShedProjectMain.jpg" alt="Backyard shed project, missing door."class="project-pics"></a>
+          <p>I decided to convert a 10 by 10 concrete slab into a new shed for my backyard.  This was a fun project, even though I made the roof a little too steep.</p>
+          <a href="#"><img src="img/tableProjectmain.jpg" alt="Table in the process of being refinished."class="project-pics"></a>
+          <p>This gallery has pictures of a table I refinished for my wife. It originally had a forest green legs and backs (for the chairs).  I changed the accent color to a coffee brown.</p>
         </div>
         <!-- Form section for user feedback -->
         <div id="submitForm">
