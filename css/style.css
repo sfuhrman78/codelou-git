@@ -35,7 +35,6 @@ body {
     margin: 25px;
     padding: 25px;
     display: auto;
-
   }
 
   li{
@@ -57,7 +56,9 @@ body {
     height: 20%;
     align-self: center;
   }
-  }
+}
+
+
 /*==========================
  Base Layout styles
  =========================*/
@@ -187,6 +188,9 @@ body {
 
  @media only screen and (min-width: 768px) {
 
+
+/*inline nav bar for full screen*/
+
    li{
      float: right;
      margin: center;
@@ -200,24 +204,58 @@ body {
      padding-top: 20px;
    }
 
+/*fix for profile picture from mobile view*/
+
    #profilePicture{
      height: auto;
      width: auto;
      display: inline;
    }
 
-   .container{
-
-   }
-
    .logo{
      display: inline;
    }
 
-   .project-pics{
+   .project-container{
      display: flex;
+     text-align: center;
+     padding-top: 20px;
+     padding-right: 10px;
    }
 
-   
+   .project{
+     flex-wrap: wrap;
+     flex-direction: column;
+     align-items: flex-end;
+   }
 
+   .project-description{
+     border: 1px solid blue;
+     margin-top: auto;
+   }
+
+   .junk-car{
+     text-align: center;
+     padding-bottom: 50px;
+   }
+
+   #tipsGenerator{
+     text-align: center;
+     padding-bottom: 50px;
+   }
+
+   .mind,
+   .family,
+   .skills{
+     text-align: center;
+     padding-bottom: 10px;
+   }
+
+   p{
+     padding-bottom: 30px;
+   }
+
+   .project-description{
+     margin-top: auto;
+   }
  }
