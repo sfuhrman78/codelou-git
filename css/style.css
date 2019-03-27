@@ -246,6 +246,7 @@ body {
    .project{
      display: flex;
      flex-wrap: wrap;
+     margin-right: 20px;
 
    }
 
@@ -275,14 +276,11 @@ body {
      padding-bottom: 30px;
    }
 
-   .project-description{
-     margin-top: auto;
-   }
-
    input,
    button{
-     display: inline-block;
+     display: inline;
      padding: 5px;
+     margin-bottom: 20px;
    }
 
    input[type=submit],
